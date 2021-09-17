@@ -1,0 +1,46 @@
+h2{
+    text-align: center;
+    font-size: 4em;
+    background-color: burlywood;
+}
+div.language,div.languagejava{
+    height: 50%;
+    width:30%;
+    margin:1%;
+    padding: 2px;
+    background-color: rgb(137, 189, 241,0.7);
+    font-size: 2em;
+    float: left;
+    border:2px solid rgb(65, 55, 55);
+}
+div.languageheading{
+    text-align: right;
+    float:right;
+    background-color: rgb(236, 236, 143);
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    width:42%;
+}
+@media screen and (max-width:991px) {
+    div.language{
+        width:45%;
+    }
+    div.languagejava{
+        width:90%;
+    }
+}
+@media screen and (max-width:767px){
+    div.language{
+        width:87%;
+    }
+    div.languagejava{
+        width:88%;
+    }
+}
+body{
+    background-color: linen;
+}
+p{
+    clear: both;
+}
